@@ -51,4 +51,4 @@ jobs:
          platforms: linux/arm/v7,linux/arm64,linux/amd64
          push: true
          tags:  ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
-         outputs: type=image,name=target,annotation-index.org.opencontainers.image.description=expeoc alpine-e-php81
+         outputs: type=image,name=target,annotation-index.org.opencontainers.image.description=expeoc nfs-server
